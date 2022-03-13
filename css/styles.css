@@ -1,0 +1,178 @@
+body
+{
+  font-family: "Montserrat";
+  text-align: center;
+}
+p
+{
+  color:#8F8F8F;
+  width: 60%;
+  margin: auto;
+  padding-bottom: 10px;
+}
+/* HEADINGS */
+h1, h2, h3, h4, h5, h6
+{
+  font-family: 'Montserrat-bold';
+}
+.big-heading
+{
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.section-heading
+{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/* Containers */
+.container-fluid
+{
+  padding: 7% 15%;
+}
+/* Navigation Bar */
+.navbar
+{
+  padding: 0 0 4.5rem;
+}
+.nav-item
+{
+  padding: 0 18px;
+}
+.nav-link
+{
+  font-size: 1.2rem;
+  font-family: 'Montserrat-light';
+}
+.navbar-brand
+{
+  font-family:'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+/* Sections */
+.color-section
+{
+  background-color: #FF4C68;
+  color: #fff;
+}
+.white-section
+{
+  background-color:#fff;
+}
+/* Title section */
+
+#title .container-fluid
+{
+  padding: 3% 15% 7%;
+    text-align: left;
+}
+/* Download Button */
+.download-button
+{
+  margin: 5% 3% 5% 0;
+}
+.feature-button
+{
+  color: #EF8172;
+}
+.feature-button:hover
+{
+   color: #FF4C68;
+}
+.row
+{
+  margin: 70px 0 0 0;
+}
+
+/* Feature section */
+.feature-title
+{
+font-size: 1.5rem;
+}
+/*#features
+{
+padding: 7%  15%;
+}
+
+.feature-box
+{
+text-align:center;
+padding: 5%;
+}
+
+*/
+/* Testemonial section */
+#testimonials
+{
+  background-color: #EF8172;
+}
+#features
+{
+  position:relative;
+  z-index: 1;
+}
+.testimonial-text
+{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/* Title image */
+.dog {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+/* my best guess is that since your title image is now absolute, the width which is 60% is relative to the whole screen and not your div.
+i tried adjusting mine and a width of 20% had the same layout as Angela's.(I am using Bootstrap 5 btw) */
+.testemonial-image
+{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press
+{
+    background-color: #EF8172;
+  padding-bottom: 3%;
+}
+.press-logo
+{
+  width: 15%;
+  padding: 20px 20px 50px;
+}
+/* Pricing section */
+#pricing
+{
+  padding: 100px;
+}
+.pricing-column
+{
+  padding: 3% 2%;
+}
+.pricing-text
+{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.footer-button
+{
+  padding: 10px 10px;
+}
+@media (max-width: 1028px)
+{
+  #title {
+    text-align: center;
+  }
+  .dog{
+    position: static;
+    transform: rotate(0);
+  }
+}
+.card
+{
+  height: 100%;
+}
